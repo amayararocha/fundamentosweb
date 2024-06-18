@@ -1,0 +1,146 @@
+/*Estilos gerais da página index.html, contato.html e curiosidade.html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #168aad; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 2.5em; /* Tamanho da fonte */
+}
+
+nav {
+    background-color: #f8f8f8; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza os links */
+}
+
+nav a {
+    color: #333; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 15px; /* Margem entre os links */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+nav a:hover {
+    color: #34a0a4; /* Cor do texto dos links ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Estilos para as seções principais */
+main {
+    background-color: #eef6f6; /* Cor de fundo clara para o conteúdo principal */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para os títulos das seções */
+main h2 {
+    color: #1e6091; /* Cor azul escura para os títulos das seções */
+    border-bottom: 2px solid #34a0a4; /* Linha abaixo do título com cor azul */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os parágrafos */
+main p {
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px; /* Define uma largura máxima para o parágrafo */
+    margin-left: auto; /* Margem automática à esquerda */
+    margin-right: auto; /* Margem automática à direita */
+}
+
+/* Estilos para as listas */
+main ul {
+    padding-left: 0; /* Remove o espaçamento interno padrão da lista */
+    max-width: 800px; /* Alinha a largura máxima com a dos parágrafos */
+    margin-left: auto; /* Margem automática à esquerda */
+    margin-right: auto; /* Margem automática à direita */
+}
+
+main li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    margin-left: auto; /* Margem automática à esquerda */
+    margin-right: auto; /* Margem automática à direita */
+}
+
+/* Estilos para as imagens */
+img {
+    border: 3px solid #168aad; /* Borda azul para as imagens */
+    border-radius: 10px; /* Bordas arredondadas para as imagens */
+    margin: 10px; /* Margem ao redor das imagens */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1e6091; /* Cor azul escura para o rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+}
+
+footer p {
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #fff; /* Cor de fundo do formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+}
+
+label {
+    display: block; /* Faz com que cada label ocupe uma linha inteira */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Faz com que os campos ocupem toda a largura disponível */
+    padding: 10px; /* Espaçamento interno dos campos */
+    margin-bottom: 20px; /* Espaçamento abaixo dos campos */
+    border-radius: 5px; /* Bordas arredondadas para os campos */
+    border: 1px solid #ccc; /* Borda cinza claro para os campos */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar o textarea apenas verticalmente */
+}
+
+button {
+    background-color: #34a0a4; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+button:hover {
+    background-color: #168aad; /* Cor de fundo do botão ao passar o mouse */
+}
+
