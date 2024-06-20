@@ -31,10 +31,11 @@ function validarNome() {
 
 function validarEmail() {
     const email = emailInput.value.trim();
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-    if (!email.includes('@') || !email.includes('.')) {
+    if (!regex.test(email)) {
         emailInput.style.borderColor = 'red';
-        emailMensagem.textContent = 'O email deve conter "@" e ".".';
+        emailMensagem.textContent = 'O email deve ser válido.';
     } else {
         emailInput.style.borderColor = 'green';
         emailMensagem.textContent = '';
